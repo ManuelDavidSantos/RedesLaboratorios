@@ -38,9 +38,8 @@ Name=enp5s0
 
 [Network]
 Address=172.16.1.11/24
-Gateway=10.95.200.1
-DNS=8.8.8.8
-DNS=8.8.4.4
+#Gateway=
+#DNS=
 ```
 
 
