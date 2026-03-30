@@ -3,7 +3,7 @@
 
 1) Las dos instancias creadas:
 	
-	![foto](/Pasted image 20260330151020.png?raw=true)
+	![foto](/images/foto1.png)
 	
 2) Ejecución de ip link show
 	![[Pasted image 20260330151254.png]]
