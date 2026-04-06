@@ -46,8 +46,11 @@ Address=172.16.1.11/24
 #DNS=
 ```
 
+PING: Envia echo request usando protocolo ICMP al network host. Esto se hace parj0kk0kka elicitar una ECHO_RESPONSE en el host. Los "pings" contienen una IP y HEADER ICMP seguidos de un struct timeval y un numero arbitrario de bytes de padding para rellenar el paquete. Puede usar ipv4 o ipv6.
 
+IP LINK SET: Modifica atributos del dispositivo de red, up/down modifica el estado del dispositivo. NAME  puede cambiar el nombre del dispositivo. SHOW muestra atributos del/los dispositivo/s.
 
+IP ADDRESS: Cada dispositivo debe tener por lo menos una direccion para usar un protocolo (ipv4, ipv6), un dispositivo puede tener multiples direcciones asignadas. El  commando muestra las direcciones y sus propiedades, ademas de los dispositivos que estan asociadas a estas.
 enviar paquetes :
 	ping -c 10 -s 16 google.com
 
